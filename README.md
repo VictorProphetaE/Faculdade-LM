@@ -67,3 +67,91 @@ Após a compilação, para realizar o link e gerar o executável, utilize o segu
 Por fim, execute o programa gerado utilizando o comando:
 
     ./nome_do_arquivo
+
+## aulaLeitura.asm
+
+Esse código faz a leitura de um nome digitado pelo usuário e o imprime na tela junto com uma mensagem de "Boa tarde". Para fazer o código funcionar, você precisa seguir os seguintes passos:
+
+### Como compilar e executar
+
+Os códigos em Assembly são compilados e executados utilizando o NASM e o LD.
+
+Para compilar um código em Assembly, utilize o seguinte comando:
+    
+    nasm -f elf64 aulaLeitura.asm
+
+Substitua o X pelo valor 64 ou 32, dependendo da arquitetura do seu sistema.
+
+Após a compilação, para realizar o link e gerar o executável, utilize o seguinte comando:
+
+    ld -o aulaLeitura aulaLeitura.o
+
+Por fim, execute o programa gerado utilizando o comando:
+
+    ./aulaLeitura
+
+## c2k.asm
+
+Esse código faz a conversão de uma temperatura em Celsius para Kelvin. Para fazer o código funcionar, você precisa seguir os seguintes passos:
+
+### Como compilar e executar
+
+Os códigos em Assembly são compilados e executados utilizando o NASM e o LD.
+
+Para compilar um código em Assembly, utilize o seguinte comando:
+    
+    nasm -f elf64 c2k.asm
+
+Substitua o X pelo valor 64 ou 32, dependendo da arquitetura do seu sistema.
+
+Após a compilação, para realizar o link e gerar o executável, utilize o seguinte comando:
+
+    ld -o c2k c2k.o
+
+Por fim, execute o programa gerado utilizando o comando:
+
+    ./c2k
+    
+## lesenha.asm
+
+Esse código faz a leitura de uma senha digitada pelo usuário e verifica se ela está correta. Caso esteja correta, imprime uma mensagem de parabéns. Caso contrário, imprime uma mensagem de erro. Para fazer o código funcionar, você precisa seguir os seguintes passos:
+
+### Como compilar e executar
+
+Os códigos em Assembly são compilados e executados utilizando o NASM e o LD.
+
+Para compilar um código em Assembly, utilize o seguinte comando:
+    
+    nasm -f elf64 lesenha.asm
+
+Substitua o X pelo valor 64 ou 32, dependendo da arquitetura do seu sistema.
+
+Após a compilação, para realizar o link e gerar o executável, utilize o seguinte comando:
+
+    ld -o lesenha lesenha.o
+
+Por fim, execute o programa gerado utilizando o comando:
+
+    ./lesenha
+
+## readfile.asm
+
+Esse código faz a leitura de um arquivo de texto e imprime o seu conteúdo na tela. Para fazer o código funcionar, você precisa seguir os seguintes passos:
+
+### Como compilar e executar
+
+Os códigos em Assembly são compilados e executados utilizando o NASM e o LD.
+
+Para compilar um código em Assembly, utilize o seguinte comando:
+    
+    nasm -f elf64 readfile.asm
+
+Substitua o X pelo valor 64 ou 32, dependendo da arquitetura do seu sistema.
+
+Após a compilação, para realizar o link e gerar o executável, utilize o seguinte comando:
+
+    ld -o readfile readfile.o
+
+Por fim, execute o programa gerado utilizando o comando:
+
+    ./readfile
